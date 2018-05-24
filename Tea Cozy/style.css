@@ -1,0 +1,140 @@
+
+body {
+    background-color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.8;
+}
+
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+}
+
+h2 {
+  display: block;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#idMission {
+  position: relative;
+
+  width: 1200px;
+  height: 700px;
+
+  padding-top: 70px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+#idMission .content {
+  top: 50%;
+  width: 100%;
+
+  position: absolute;
+
+  background-color: black;
+}
+
+#idTea {
+    padding-top: 50px;
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#idPictures {
+  justify-content: space-around;
+}
+
+#idItem img {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+
+/* Locations Part CSS */
+
+#idLoc {
+    padding-top: 140px;
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('resources/img/8.jpg');
+    position: relative;
+}
+
+
+#idLoc .clMain {
+  padding-top: 25px;
+}
+
+#idLoc .location {
+  display: block;
+  opacity: 1px;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+
+  background-color: black;
+
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.location {
+  justify-content: space-between;
+}
+
+/* Footer Part CSS */
+
+footer {
+  height: 200px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+footer span {
+  text-align: left;
+}
